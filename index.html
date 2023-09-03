@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/zlDHIYwtfyAgdRkd7/Co6pHkks0M01g5yuGvKGf" crossorigin="anonymous">
+
+ <link rel="stylesheet" href="style.css">
+ <title>Tempeture_Converter</title>
+</head>
+<body>
+ <div class="Main_container" id="Main_container">
+  <header>
+   <div class="header-content">
+     <div class="header-logo">
+      MZ
+     </div>
+     <nav class="header-nav">
+       <ul>
+         <li id="Home"><a  href="#">Home</a></li>
+         <li id="Converter"><a  href="#">Converter</a></li>
+         <li id="About"><a  href="#">About Us</a></li>
+       </ul>
+     </nav>
+   </div>
+  </header>
+  <div class="mainconverter"  id="mainconverter">
+    <div class="Containerconverter">
+      <div>
+        <div class="row inputConverter">
+          <input type="number" name="" id="inputNumber" class="inputNum">
+          <div>
+            <button type="button" id="Convert" class="Convertbtn">Convert</button>
+          </div>
+          <div class="result" id="result">
+
+          </div>
+        </div>      
+      </div>
+      <div class="dropdownDiv">
+        <div class="dropdown">
+          <div id="temperatureDisplay" class="placeConverter">
+          </div>
+          <button type="button" class="dropbtn">Select temperature units</button>
+        <div class="dropdown-content">
+          <a href="#" id="celsius">Celsius</a>
+          <a href="#" id="fahrenheit">Fahrenheit</a>
+          <a href="#" id="kelvin">Kelvin</a>
+        </div>
+      </div>
+
+       <div class="dropdown_Selected">
+        <div id="temperatureDisplay_Selected" class="placeConverter2">
+
+        </div>
+          <button type="button" class=" dropbtn">Select temperature units</button>
+        <div class="dropdown-content_Selected">
+          <a href="#" id="celsius_Selected">Celsius</a>
+          <a href="#" id="fahrenheit_Selected">Fahrenheit</a>
+          <a href="#" id="kelvin_Selected">Kelvin</a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="centered-div" id="centered-div">
+    I'm a full-stack developer skilled in HTML, CSS, JavaScript, React, Ruby, and PostgreSQL. I specialize in creating responsive and engaging web experiences. My commitment to ongoing learning ensures I deliver innovative solutions. I thrive in collaborative environments, contributing to impactful projects.
+  </div>
+
+  <footer>
+   <div class="footer-content">
+     <div class="footer-info">
+      <p>&copy; 2023 Temperature Converter</p> 
+     </div>
+   </div>
+  </footer>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
