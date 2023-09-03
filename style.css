@@ -8,6 +8,7 @@ body {
 .Main_container {
   width: 100vw;
   position: fixed;
+  top: 0;
   left: 0;
 }
 
@@ -265,6 +266,7 @@ footer {
     width: 100vw;
     position: fixed;
     left: 0;
+    top: 0;
   }
 
   .mainconverter {
