@@ -1,6 +1,14 @@
+body {
+  background-image: url('./images/fond.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 .Main_container {
   width: 100vw;
   position: fixed;
+  left: 0;
 }
 
 .mainconverter {
@@ -12,7 +20,7 @@
 
 header {
   display: flex;
-  background-color: #2173d8;
+  background-color: #3498db;
   color: #fff;
 }
 
@@ -56,7 +64,6 @@ header {
 footer {
   position: fixed;
   bottom: 0;
-  background-color: #2173d8;
   color: #fff;
 }
 
@@ -246,8 +253,18 @@ footer {
 }
 
 @media (max-width: 768px) {
+  body {
+    background-image: url('./images/fond2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: fixed;
+  }
+
   .Main_container {
     width: 100vw;
+    position: fixed;
+    left: 0;
   }
 
   .mainconverter {
@@ -259,7 +276,7 @@ footer {
 
   header {
     display: flex;
-    background-color: #2173d8;
+    background-color: #3498db;
     color: #fff;
   }
 
@@ -303,7 +320,6 @@ footer {
   footer {
     position: fixed;
     bottom: 0;
-    background-color: #2173d8;
     color: #fff;
   }
 
