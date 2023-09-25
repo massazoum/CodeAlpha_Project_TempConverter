@@ -130,16 +130,12 @@ function reponse(V1, V2, inputNumber) {
 }
 
 window.addEventListener('click', function (event) {
-  // Check if the clicked element or its parent has the class "dropdown"
   if (!event.target.closest('.dropdown')) {
-    // If not, hide the dropdown with ID "dropdowncontentsub"
     dropdowncontentsub.style.display = 'none';
     
   }
 
-  // Check if the clicked element or its parent has the class "dropdown_Selected"
   if (!event.target.closest('.dropdown_Selected')) {
-    // If not, hide the dropdown with ID "dropdowncontentsub_Selected"
     dropdowncontentsub_Selected.style.display = 'none';
   }
 });
