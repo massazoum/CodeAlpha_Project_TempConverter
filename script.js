@@ -129,7 +129,6 @@ function reponse(V1, V2, inputNumber) {
 
 }
 
-// Add click event listener to the window
 window.addEventListener('click', function (event) {
   // Check if the clicked element or its parent has the class "dropdown"
   if (!event.target.closest('.dropdown')) {
